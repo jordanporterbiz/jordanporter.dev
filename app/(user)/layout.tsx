@@ -1,11 +1,5 @@
 import '../styles/globals.css'
 
-
-// export const metadata = {
-//   title: 'Jordan Porter | Blog',
-//   description: 'A blog of personal experiences and thoughts.',
-// }
-
 export default function RootLayout({
   children,
 }: {
@@ -13,6 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* { Header } */}
+      {/* { Banner } */}
+
       <body>{children}</body>
     </html>
   )
