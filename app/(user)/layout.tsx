@@ -1,20 +1,19 @@
-import '../../styles/globals.css'
-import Header from '../../components/Header'
-import Banner from '../../components/Banner'
+import "../../styles/globals.css";
+import Header from "../../components/Header";
+import Banner from "../../components/Banner";
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-
-      <body>
-        <Header/>
-        <Banner/>
-        {children}
-      </body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body className="max-w-7xl mx-auto">
+				<Header />
+				<Banner />
+				{children}
+			</body>
+		</html>
+	);
 }
