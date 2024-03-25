@@ -12,7 +12,7 @@ type Props = {
 function BlogList({ posts }: Props) {
 	return (
 		<div>
-			<hr className="border-[#f7ab0a] mb-10" />
+			<hr className="border-[--my-white] mb-10" />
 
 			<div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gay-y-16 pb-24">
 				{posts.map((post) => (
@@ -43,7 +43,7 @@ function BlogList({ posts }: Props) {
 										{post.categories.map((category) => (
 											<div
 												key={category._id}
-												className="bg-[#F7AB0A] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
+												className="bg-[#4285f4] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
 											>
 												<p>{category.title}</p>
 											</div>
