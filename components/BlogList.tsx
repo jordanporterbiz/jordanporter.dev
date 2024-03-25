@@ -65,6 +65,7 @@ function BlogList({ posts }: Props) {
 					</ClientSideRoute>
 				))}
 			</div>
+			<hr className="border-[--my-white] mb-10" />
 		</div>
 	);
 }

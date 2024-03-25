@@ -13,6 +13,19 @@ const query = groq`
    } | order(_createdAt desc)
 `;
 
+// export const revalidate = 60; // 1 minute revalidation
+
+// // Generate static paths for all posts
+// export async function generateStaticParams() {
+// 	// Groq query to get all slugs
+// 	// Fetch all slugs
+// 	const posts = await client.fetch(query);
+// 	// Map all slugs to an array of strings
+// 	const slugRoutes = slugs.map((slug) => slug.slug.current);
+// 	// Return an array of objects with the slug key
+// 	return slugRoutes.map((slug) => ({ slug }));
+// }
+
 export default async function HomePage() {
 	if (previewData()) {
 		return (
@@ -20,7 +33,7 @@ export default async function HomePage() {
 				fallback={
 					<div role="status">
 						<p className="text-center text-lg animate pulse text-[#4285f4]">
-							Loading Preview Data...
+							Loading...
 						</p>
 					</div>
 				}

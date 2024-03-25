@@ -9,7 +9,7 @@ export const getDefaultDocumentNode: DefaultDocumentNodeResolver = (S,{ schemaTy
             S.view.component(Iframe).options({
                 // Required: Accepts an async function 
                 // Or a string that is a URL
-                    url: `${process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000"}/api/preview"`,
+                    url: `${process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000"}/api/preview`,
                     defaultSize: `desktop`,
                     reload: {
                         button: true,
