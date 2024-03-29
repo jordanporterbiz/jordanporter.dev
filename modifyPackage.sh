@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the file path
-file="./node_modules/@sanity/types/lib/dts/src/index.d.ts"
+file="/node_modules/@sanity/types/lib/dts/src/index.d.ts"
 
 
 echo "$file"
