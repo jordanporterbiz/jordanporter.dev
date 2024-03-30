@@ -1,12 +1,12 @@
-# JordanPorter.Dev
+# 🚀 JordanPorter.Dev 🚀
 
-Welcome to JordanPorter.Dev, a personal website powered by Next.js and integrated with Sanity CMS for managing blog posts.
+Welcome to JordanPorter.Dev, a personal website powered by Next.js and integrated with Sanity CMS for managing blog posts. 🎉
 
-## Overview
+## 🌟 Overview 🌟
 
-JordanPorter.Dev is a Next.js application designed to serve as my personal website. It incorporates Sanity CMS to enable easy management and publishing of blog posts. This project aims to provide a platform for showcasing my portfolio of projects, sharing thoughts through blog posts, and building more of a personal/professional brand.
+JordanPorter.Dev is a Next.js application designed to serve as my personal website. It incorporates Sanity CMS to enable easy management and publishing of blog posts. This project aims to provide a platform for showcasing my portfolio of projects, sharing thoughts through blog posts, and building more of a personal/professional brand. 🚀
 
-## Features
+## ✨ Features ✨
 
 - **Next.js Integration:** Built using Next.js, a React framework for building server-rendered applications.
 - **Sanity CMS:** Integrated with Sanity CMS for managing blog content, enabling easy creation, editing, and publishing of blog posts.
@@ -15,7 +15,7 @@ JordanPorter.Dev is a Next.js application designed to serve as my personal websi
 - **SEO-friendly:** Optimised for search engines to improve visibility and reach for the website and blog posts.
 - **Easy Deployment:** Deploy the website easily to hosting platforms like Vercel, Netlify, or others with seamless integration.
 
-## Getting Started
+## 🚀 Getting Started 🚀
 
 To get started with JordanPorter.Dev, follow these steps:
 
@@ -48,7 +48,7 @@ To get started with JordanPorter.Dev, follow these steps:
    - Customize your website by editing pages, components, and styles as needed.
    - Deploy your website to your preferred hosting platform.
 
-## Directory Structure
+## 📂 Directory Structure 📂
 
 - `/components`: Contains reusable React components used throughout the application.
 - `/pages`: Contains Next.js pages for different routes of the application.
@@ -56,15 +56,15 @@ To get started with JordanPorter.Dev, follow these steps:
 - `/styles`: Contains global styles and CSS modules for styling components.
 - `/utils`: Contains utility functions or modules used across the application.
 
-## Dependencies
+## 🛠️ Dependencies 🛠️
 
 - [Next.js](https://nextjs.org): React framework for building server-rendered applications.
 - [Sanity CMS](https://www.sanity.io): Headless CMS for managing and delivering content.
 
-## Contributing
+## 🤝 Contributing 🤝
 
 Contributions to JordanPorter.Dev are welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or submit a pull request.
 
-## License
+## 📝 License 📝
 
 This project is licensed under the [MIT License](LICENSE).
